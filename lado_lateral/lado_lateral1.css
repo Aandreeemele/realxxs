@@ -1,0 +1,19 @@
+/* Estilo base */
+.z1 {
+    font-size: 0.8rem;
+    color: white;
+}
+
+/* Media queries para 1020px */
+@media (max-width: 1020px) {
+    .z1 {
+        font-size: 0.7rem; /* Ajusta el tamaño de la fuente para pantallas de hasta 1020px */
+    }
+}
+
+/* Media queries para 375px */
+@media (max-width: 375px) {
+    .z1 {
+        font-size: 0.6rem; /* Ajusta el tamaño de la fuente para pantallas de hasta 375px */
+    }
+}
